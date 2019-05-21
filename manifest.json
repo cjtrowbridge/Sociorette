@@ -1,0 +1,12 @@
+{
+"name":"Sociorette",
+"description":"https://github.com/cjtrowbridge/Sociorette/",
+"version":"1.0",
+"manifest_version":1,
+"content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["facebook.js"]
+    }
+  ]
+}
